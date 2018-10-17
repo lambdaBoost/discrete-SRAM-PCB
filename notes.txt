@@ -1,0 +1,41 @@
+TO DO:
+
+add disconnect switch to atmega
+double check wiring on serial to parallel register
+
+
+HOOKUP TO ATMEGA:
+word write SDI (serial in):D2
+word write LCHCLK:D3
+word write SFTCLK:D4
+
+bit read CLK: D5
+bit read CLKINH: D6
+bit read QH: D7
+bit read SHLD: D8
+
+bit write SDI (serial in):D9
+bit write LCHCLK:D10
+bit write SFTCLK:D11
+
+write enable: D12
+
+
+EQUIPMENT
+DUAL MOSFETS:
+best so far:
+https://uk.rs-online.com/web/p/mosfets/1712523/
+
+LEDs: ebay (far cheaper):
+https://www.ebay.co.uk/itm/0603-SMD-LED-Red-Green-Blue-Yellow-White-Orange-Purple-7Colours-Light-Diodes/263522493608?_trkparms=aid%3D555018%26algo%3DPL.SIM%26ao%3D1%26asc%3D52543%26meid%3D011fa105bee044f880bb66d4c7f77fc7%26pid%3D100005%26rk%3D2%26rkt%3D11%26sd%3D263170721588%26itm%3D263522493608&_trksid=p2047675.c100005.m1851
+
+INVERTER:
+as on diagram
+
+RESISTOR:
+use 200 ohm to limit to 10mA per LED, maybe even start with 400ohm.
+
+if doesnt work use 100ohm instead of 68 shown on diagram
+
+XOR:
+https://uk.rs-online.com/web/p/logic-gates/8168797/

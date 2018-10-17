@@ -1,0 +1,37 @@
+Layers
+------
+
+Report Written:     Tuesday, October 16, 2018
+Project Path:       C:\Users\ahall\Documents\projects\discrete-sram\discrete-sram.prj
+Design Path:        C:\Users\ahall\Documents\projects\discrete-sram\discrete-sram.pcb
+Design Title:       
+Created:            13/10/2018 11:29:42
+Last Saved:         16/10/2018 16:31:47
+Editing Time:       4599 min
+Units:              mil (precision 0)
+
+
+Layers
+======
+
+Name                 Type          Side   Usage          Bias Net
+----------------------------------------------------------------------------
+Top Documentation    Documentation Top    Non-Electrical None
+Top Silkscreen       Silk Screen   Top    Non-Electrical None
+Top Copper           Electrical    Top    Electrical     X
+Bottom Copper        Electrical    Bottom Electrical     Y
+Bottom Silkscreen    Silk Screen   Bottom Non-Electrical None
+Bottom Documentation Documentation Bottom Non-Electrical None
+
+Layer Types
+===========
+
+Name          Usage          SMD Pads Free Pads SMD Sym Pads All Layer Pads Vias Oversize
+-----------------------------------------------------------------------------------------------------------
+Silk Screen   Non-Electrical No       No        No           No             No   None
+Electrical    Electrical     Yes      Yes       Yes          Yes            Yes  None
+Paste Mask    Non-Electrical Yes      No        Yes          No             No   Absolute -3
+Solder Mask   Non-Electrical Yes      Yes       Yes          Yes            Yes  Absolute 3
+Documentation Non-Electrical No       No        No           No             No   None
+
+End Of Report.
